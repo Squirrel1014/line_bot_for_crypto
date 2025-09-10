@@ -1,0 +1,2 @@
+# line_bot_for_crypto
+line上api機器人，從line介面上選取某一幣種，就能呼叫機器人去爬取幣種價格等資料

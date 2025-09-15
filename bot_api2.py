@@ -12,6 +12,7 @@ from linebot.models import MessageEvent, TextMessage, TextSendMessage, QuickRepl
 bsc_api_key = os.environ.get('BINANCE_API_KEY')
 secret_key = os.environ.get('BINANCE_SECRET_KEY')
 line_secret = os.environ.get('line_secret')
+line_channel_token = os.environ.get('line_token')
 if not bsc_api_key or not secret_key :
     print('沒找到金鑰')
     sys.exit()
